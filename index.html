@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="editor-container">
+        <div class="editor">
+            <h2>HTML</h2>
+            <textarea id="html" placeholder="HTML"></textarea>
+        </div>
+        <div class="editor">
+            <h2>CSS</h2>
+            <textarea id="css" placeholder="CSS"></textarea>
+        </div>
+        <div class="editor">
+            <h2>JavaScript</h2>
+            <textarea id="js" placeholder="JavaScript"></textarea>
+        </div>
+        <div class="buttons">
+            <button id="copyButton">Copy</button>
+            <button id="saveButton">Save</button>
+            <button id="lockUnlockButton">Lock</button>
+        </div>
+    </div>
+    <div class="output-container">
+        <h2>Output</h2>
+        <iframe id="code"></iframe>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
